@@ -12,6 +12,10 @@ export const StyledCard = styled.div`
     width: 80%;
   }
   & > div {
-    flex: 1
+    flex: 1;
+  }
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    flex-direction: column;
   }
 `;

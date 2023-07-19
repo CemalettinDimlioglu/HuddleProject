@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
     body:"#fff",
     footer:"#003333"
     },
+    mobile:"768px"
    };
    return (
 
